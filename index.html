@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abinaya C — Software Developer</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9257bfa718.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar" class="nav">
+    <div class="nav-inner container">
+      <a class="brand" href="#home"><span class="gold">Abinaya</span><span class="dot">.C</span></a>
+
+      <button id="nav-toggle" aria-label="Open menu" class="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#edu">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-close"><button id="nav-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <h1 class="hero-title">Hello, I'm <span class="gold">Abinaya C</span></h1>
+        <p class="hero-sub">Software Developer — building clean, maintainable web experiences with Java, React & modern tools.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary ripple" href="#projects">View Work</a>
+          <a class="btn btn-ghost ripple" href="#contact">Hire Me</a>
+        </div>
+
+        <ul class="hero-meta">
+          <li><strong>Location:</strong> Chennai, India</li>
+          <li><strong>Email:</strong> <a href="mailto:abinayac03@gmail.com">abinayac03@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="profile-photo">
+          <!-- Replace src with your preferred photo -->
+          <img src="image copy 3.png" alt="Abinaya C">
+        </div>
+        <div class="profile-summary">
+          <h3>About</h3>
+          <p>A motivated computer science student and full-stack enthusiast. I enjoy creating reliable apps and intuitive UIs — I bring problem-solving and curiosity to every project.</p>
+          <a class="link" href="Abinaya_Software_Developer.pdf" download>Download CV <i class="fa-solid fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-accent" aria-hidden="true"></div>
+  </header>
+
+  <!-- ABOUT (expanded) -->
+  <section id="about" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">About Me</h2>
+      <p class="lead">Aspiring software developer eager to contribute to collaborative teams, build scalable solutions, and keep learning modern technologies. Comfortable across frontend & backend stacks — focused on code quality and usability.</p>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h4>Core Focus</h4>
+          <p>Full-Stack Development, API Design, Responsive UIs, Database modeling and automation using Python/Java.</p>
+        </div>
+        <div class="about-card">
+          <h4>Strengths</h4>
+          <p>Clean code, debugging, communication, and quick learning. Strong fundamentals in data structures & algorithms.</p>
+        </div>
+        <div class="about-card">
+          <h4>Tools</h4>
+          <p>VS Code • Git/GitHub • MySQL • Postman • Jupyter • Google Colab</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-soft">
+    <div class="container">
+      <h2 class="section-title reveal">Skills & Tools</h2>
+
+      <div class="skills-grid">
+        <div class="skill reveal">
+          <i class="fa-solid fa-code skill-ico"></i>
+          <h5>Languages</h5>
+          <p>Java • Python • JavaScript • HTML • CSS • SQL</p>
+        </div>
+
+        <div class="skill reveal">
+          <i class="fa-solid fa-layer-group skill-ico"></i>
+          <h5>Frameworks</h5>
+          <p>Spring Boot • React.js • Bootstrap</p>
+        </div>
+
+        <div class="skill reveal">
+          <i class="fa-solid fa-database skill-ico"></i>
+          <h5>Databases</h5>
+          <p>MySQL, relational modelling & SQL queries</p>
+        </div>
+
+        <div class="skill reveal">
+          <i class="fa-solid fa-tools skill-ico"></i>
+          <h5>Dev Tools</h5>
+          <p>Git, GitHub, VS Code, Postman, Jupyter</p>
+        </div>
+
+        <div class="skill reveal">
+          <i class="fa-solid fa-people-roof skill-ico"></i>
+          <h5>Soft Skills</h5>
+          <p>Time management • Communication • Adaptability • Teamwork</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS & INTERNSHIPS -->
+  <section id="projects" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Projects & Experience</h2>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <h3>Korean Online Food Ordering</h3>
+          <p>Frontend project that simulates an ordering platform. Built with HTML, CSS & JavaScript — features an interactive cart, responsive layout and product listing UX.</p>
+          <p class="muted">Tech: HTML • CSS • Vanilla JS</p>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Notepad Web Application</h3>
+          <p>Browser-based notes app — create, edit, delete, and persist notes using <code>localStorage</code>. Focused on UX and responsiveness for small devices.</p>
+          <p class="muted">Tech: HTML • JS • localStorage</p>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Aqua Sentinel — Water Contamination Detection</h3>
+          <p>IoT + AI concept for real-time water quality monitoring with alerts and a dashboard for visualization. Integrated sensor data ingestion and model inference pipeline (high-level design).</p>
+          <p class="muted">Tech: IoT • AI (concept) • Dashboard</p>
+        </article>
+      </div>
+
+      <h3 class="subheading">Internships</h3>
+      <div class="internships-grid">
+        <div class="intern-card reveal">
+          <h4>Shristi Innovative Techno Park — Software Engineer Intern</h4>
+          <p><strong>July 2022</strong> — Worked on Python fundamentals, data handling, file operations and automation tasks. Gained practical experience with pandas and basic OOP patterns.</p>
+        </div>
+
+        <div class="intern-card reveal">
+          <h4>Sanmina Tech Services — Software Developer Intern</h4>
+          <p><strong>Aug 2024</strong> — Built responsive front-end pages, implemented client-side validations, and supported SQL data queries for internal dashboards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTIFICATIONS -->
+  <section id="edu" class="section section-soft">
+    <div class="container reveal">
+      <h2 class="section-title">Education & Certifications</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <h4>Trichy Engineering College</h4>
+          <p>B.E. Computer Science — <strong>CGPA: 8.1</strong> <span class="muted">Nov 2021 — May 2025</span></p>
+        </div>
+
+        <div class="timeline-item reveal">
+          <h4>SM Matriculation Higher Secondary School</h4>
+          <p>HSC — <strong>89%</strong> <span class="muted">Jun 2020 — May 2021</span></p>
+        </div>
+
+        <div class="timeline-item reveal">
+          <h4>Full Stack Development Certification</h4>
+          <p><strong>May 2025</strong> — Completed training in front-end, back-end, databases and deployment technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS (small) -->
+  <section class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Achievements</h2>
+
+      <div class="achievements-grid">
+        <div class="achieve-card reveal">
+          <h5>Consistent Academic Performance</h5>
+          <p>Strong results across school & college with a focus on CS fundamentals.</p>
+        </div>
+        <div class="achieve-card reveal">
+          <h5>Project Leadership</h5>
+          <p>Led front-end builds and feature implementations during internships and coursework.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="container reveal">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:abinayac03@gmail.com">abinayac03@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> +91 6379571709</p>
+          <p class="muted">LinkedIn • GitHub</p>
+
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/abinaya-c-341119320?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbzMKLA3qRIq0YfLXMhTelQ%3D%3D" target="_blank" rel="noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" rel="noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+
+        <form name="submit-to-google-sheet" class="contact-form" autocomplete="off">
+          <label class="visually-hidden" for="name">Name</label>
+          <input id="name" name="Name" type="text" placeholder="Your name" required>
+
+          <label class="visually-hidden" for="email">Email</label>
+          <input id="email" name="Email" type="email" placeholder="Your email" required>
+
+          <label class="visually-hidden" for="message">Message</label>
+          <textarea id="message" name="Message" rows="5" placeholder="Your message" required></textarea>
+
+          <button type="submit" class="btn btn-primary ripple">Send Message</button>
+          <span id="msg" class="form-msg" aria-live="polite"></span>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Abinaya C • Built with attention to detail</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    /* ---------- NAV TOGGLE ---------- */
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    const navClose = document.getElementById('nav-close');
+
+    navToggle.addEventListener('click', () => navMenu.classList.add('open'));
+    if (navClose) navClose.addEventListener('click', () => navMenu.classList.remove('open'));
+    // close when clicking links (mobile)
+    document.querySelectorAll('#nav-menu a').forEach(a => a.addEventListener('click', () => navMenu.classList.remove('open')));
+
+    /* ---------- NAV SCROLL SHADOW ---------- */
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) navbar.classList.add('scrolled');
+      else navbar.classList.remove('scrolled');
+    });
+
+    /* ---------- SMOOTH REVEAL: IntersectionObserver ---------- */
+    const reveals = document.querySelectorAll('.reveal');
+    const obsOptions = { threshold: 0.12 };
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, obsOptions);
+    reveals.forEach(r => revealObserver.observe(r));
+
+    /* ---------- CONTACT FORM (Google Script) ---------- */
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzbWffQZmB0f2p-WyHbB9lIWiAvlEDBGJMcVk8ocekH7NupEEtPexTaGt_43lwq9xeJEA/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msgBox = document.getElementById('msg');
+
+    if (form) {
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(() => {
+            msgBox.textContent = 'Message sent successfully!';
+            form.reset();
+            setTimeout(() => msgBox.textContent = '', 4500);
+          })
+          .catch(err => {
+            console.error(err);
+            msgBox.textContent = 'Oops — something went wrong.';
+          });
+      });
+    }
+
+    /* ---------- BUTTON RIPPLE (delegated) ---------- */
+    document.addEventListener('click', function (e) {
+      const target = e.target.closest('.ripple');
+      if (!target) return;
+      const rect = target.getBoundingClientRect();
+      const circle = document.createElement('span');
+      const diameter = Math.max(rect.width, rect.height);
+      circle.style.width = circle.style.height = `${diameter}px`;
+      circle.classList.add('ripple-effect');
+      circle.style.left = `${e.clientX - rect.left - diameter / 2}px`;
+      circle.style.top = `${e.clientY - rect.top - diameter / 2}px`;
+      const ripple = target.getElementsByClassName('ripple-effect')[0];
+      if (ripple) ripple.remove();
+      target.appendChild(circle);
+      setTimeout(() => circle.remove(), 600);
+    });
+  </script>
+</body>
+</html>
